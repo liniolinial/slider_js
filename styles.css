@@ -1,0 +1,29 @@
+ul {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  justify-content: flex-start;
+  align-items: center;
+  width: 24.4rem;
+  padding: 0;
+  overflow: auto;
+}
+
+li {
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  list-style-type: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: lightblue;
+  padding: 1rem;
+}
+
+button {
+  align-self: center;
+  border-radius: 50%;
+}
